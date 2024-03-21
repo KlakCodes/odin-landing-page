@@ -36,9 +36,10 @@ button {
 .hero-section {
     background-color: #1F2937;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 30px 100px;
+    gap: 50px
 }
 
 .hero-text {
@@ -63,8 +64,9 @@ button {
 }
 
 .hero-image {
-    width: 50vw;
+    width: 40vw;
     height: auto;
+    border-radius: 5px;
 }
 
 .gallery-section {
@@ -72,6 +74,8 @@ button {
    flex-direction: column; 
    justify-content: center;
    align-items: center;
+   padding-top: 30px;
+   padding-bottom: 60px;
 }
 
 .information-text {
@@ -93,19 +97,62 @@ button {
 }
 
 .gallery-image {
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
     border: 2px solid #3882F6;
     border-radius: 5px;
 }
 
 .quote-section {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 90px 200px;
 
 }
 
-.advert-section {
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    align-self: flex-start;
+    margin: 0;
+}
 
+.quotee {
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.advert-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 100px;
+}
+
+.advert {
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    width: 100vw;
+}
+
+.advert-header {
+    font-weight: bold;
+    margin: 0;
+}
+
+.advert-text {
+    margin: 0;
+}
+
+.advert-button {
+    border: 1px solid #ffffff
 }
 
 .footer {
